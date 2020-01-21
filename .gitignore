@@ -1,0 +1,9 @@
+env
+.vscode
+db.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+celerybeat-schedule
+currentval.txt
+
