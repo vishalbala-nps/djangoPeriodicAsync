@@ -15,3 +15,5 @@ The view reads the temporary file and displays both the numbers, result and the 
 -   In another terminal (at terminal 2) start celery beat by running: `celery -A djangoAsync beat -l info`
 -   In another terminal(at terminal 3) Run the command:  `python3 manage.py runserver`  to start the server. You can access it at  `127.0.0.1:8000`
 - You can look at terminal 1 and 2 where we can see our task get scheduled and run every minute
+## Asciinema Recording
+An Asciinema recording is located at: https://asciinema.org/a/294979
