@@ -12,6 +12,6 @@ The view reads the temporary file and displays both the numbers, result and the 
 -   [Optional but recommended] Create a Virtual Environment by running  `virtualenv -p python3 env`  After creating the environment, activate it by running  `source env/bin/activate`
 -   After entering the environment, install the dependencies by running:  `pip3 install -r requirements.txt`
 -   After installing, (at terminal 1) start celery by running:  `celery worker -A djangoAsync --loglevel=info`
--   In another terminal (at terminal 2) start celery beat by running: `celery -A djangoAsync beat -1 info`
+-   In another terminal (at terminal 2) start celery beat by running: `celery -A djangoAsync beat -l info`
 -   In another terminal(at terminal 3) Run the command:  `python3 manage.py runserver`  to start the server. You can access it at  `127.0.0.1:8000`
 - You can look at terminal 1 and 2 where we can see our task get scheduled and run every minute
